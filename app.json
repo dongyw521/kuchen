@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/maintenance/maintenance",
+    "pages/recycle/recycle",
+    "pages/about/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "酷晨回收",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#687181",
+    "selectedColor": "#687181",
+    "backgroundColor": "#fff",
+    "list": [{
+      "pagePath": "pages/maintenance/maintenance",
+      "text": "维修",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home_0.png"
+    },{
+      "pagePath": "pages/recycle/recycle",
+      "text": "回收",
+      "iconPath": "images/setting.png",
+      "selectedIconPath": "images/setting_0.png"
+    },{
+      "pagePath": "pages/about/about",
+      "text": "关于",
+      "iconPath": "images/about.png",
+      "selectedIconPath": "images/about_0.png"
+    }]
+  }
+}
